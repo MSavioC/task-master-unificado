@@ -1,0 +1,108 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url("https://i.pinimg.com/originals/74/79/77/747977dfedb099d3e9207b1a5bbd8563.jpg") no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f4f4f9;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    color: #ff0000;
+}
+
+#task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#task-input input,
+#task-input select,
+#task-input button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+}
+
+#task-input button {
+    background-color: #ffae00;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#task-input button:hover {
+    background-color: #ff8800;
+}
+
+#show-tasks {
+    display: block;
+    margin: 10px auto 20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: rgb(255, 225, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#show-tasks:hover {
+    background-color: #ff0000;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
